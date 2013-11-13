@@ -13,4 +13,5 @@ rvm:
 env:
   - SCRIPT=braceless-interpolation
   - SCRIPT=__END__
+  - SCRIPT=for
 script: "ruby $SCRIPT.rb"
