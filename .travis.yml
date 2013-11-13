@@ -15,4 +15,5 @@ env:
   - SCRIPT=__END__
   - SCRIPT=for
   - SCRIPT=control-character-literal
+  - SCRIPT=executable-heredoc
 script: "ruby $SCRIPT.rb"
