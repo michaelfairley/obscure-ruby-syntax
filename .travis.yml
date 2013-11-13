@@ -16,4 +16,5 @@ env:
   - SCRIPT=for-loop
   - SCRIPT=control-character-literal
   - SCRIPT=executable-heredoc
+  - SCRIPT=flip-flop
 script: "ruby $SCRIPT.rb"
